@@ -1,0 +1,4 @@
+redo-analysis-*/
+plans/
+.test-output/
+*.zip
