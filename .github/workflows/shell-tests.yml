@@ -1,0 +1,18 @@
+name: Bash checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse shell scripts
+        run: |
+          bash -n redoctl.sh
+          bash -n tests/test_wrapper.sh
+          bash -n examples/maintenance.sh
+      - name: ShellCheck
+        run: shellcheck redoctl.sh tests/test_wrapper.sh examples/maintenance.sh
+      - name: Test automation failure paths without Oracle
+        run: bash tests/test_wrapper.sh
