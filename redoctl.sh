@@ -79,7 +79,9 @@ load_config() {
     cfg[MEMBER2_DIR]=${cfg[MEMBER2_DIR]:-/oracle/${cfg[SAP_SID]}/mirrlogA}
     for key in MEMBER1_DIR MEMBER2_DIR; do
         value=${cfg[$key]%/}
-        safe_path "$value" && [[ ${#value} -le 200 ]] || die "Invalid absolute filesystem path: $key"
+        if ! safe_path "$value" || [[ ${#value} -gt 200 ]]; then
+            die "Invalid absolute filesystem path: $key"
+        fi
         cfg[$key]=$value
     done
     for key in DAYS TARGET_SWITCH_MINUTES HEADROOM_PERCENT MIN_SIZE_MB MAX_SIZE_MB SIZE_MB TARGET_GROUP_COUNT RESERVE_MB WAIT_SECONDS POLL_SECONDS MAX_SWITCHES MAX_RUNTIME_SECONDS PLAN_MAX_AGE_HOURS; do
@@ -182,7 +184,9 @@ while IFS='|' read -r tag first second extra; do
         REDO_RESERVE) reserve=$first ;;
         REDO_TIMEOUT) timeout_seconds=$first ;;
         REDO_FILE)
-            safe_path "$first" && [[ $second =~ ^[1-9][0-9]{0,14}$ && -z $extra ]] || die 'Malformed file requirement from SQL'
+            if ! safe_path "$first" || [[ ! $second =~ ^[1-9][0-9]{0,14}$ || -n $extra ]]; then
+                die 'Malformed file requirement from SQL'
+            fi
             [[ ! -e $first && ! -L $first ]] || die "File already exists; REUSE is forbidden: $first"
             dir=$(dirname -- "$first")
             [[ -d $dir && -w $dir ]] || die "Directory missing or not writable by the Oracle owner: $dir"
