@@ -2,20 +2,18 @@ Nax Source-Available License 1.0
 
 Copyright (c) 2026 Naxterra. All rights reserved.
 
-This license applies to the software in this repository and to the builds published from it (the "Software").
+1. Permitted use. You may download, install and run the official release builds of this software for any purpose, including commercial use, on any number of devices you control. You may read and study the source code.
 
-1. Permitted use. You may download, install and run the official release builds of the Software for any purpose, including commercial use, on any number of devices you control. Official release builds are those published by the copyright holder on the releases page of this repository or through an update mechanism that the copyright holder provides. You may read and study the source code.
+2. Reserved rights. Except as stated in section 1, you may not copy, modify, adapt, translate, decompile, create derivative works of, redistribute, sublicense, rent, lease, sell or otherwise commercially exploit the software or its source code, in whole or in part, without the prior written permission of the copyright holder. Linking to the official release page is permitted; redistributing the files themselves is not.
 
-2. Reserved rights. Except as stated in section 1, you may not copy, modify, adapt, translate, decompile, create derivative works of, redistribute, sublicense, rent, lease, sell or otherwise commercially exploit the Software or its source code, in whole or in part, without the prior written permission of the copyright holder. Linking to the official release page is permitted. Redistributing the files themselves is not.
+3. Contributions. If you send changes to the copyright holder, you grant the copyright holder the right to use them under any terms.
 
-3. Forks. The right to view and fork this repository on GitHub that the GitHub Terms of Service grant is unaffected. A fork or any other copy gives you no rights beyond those in sections 1 and 2.
+4. Trademarks. The names Nax, Naxterra and the names of the individual apps may not be used to promote derived or competing products.
 
-4. Contributions. If you send changes to the copyright holder, you grant the copyright holder the right to use them under any terms.
+5. Mandatory rights. Nothing in this license limits rights that applicable law grants and that cannot be waived by contract, such as the right in the European Union to decompile for interoperability or to make a backup copy.
 
-5. Trademarks. The names Nax and Naxterra and the names of the individual applications may not be used to promote derived or competing products.
+6. No warranty. The software is provided "as is", without warranty of any kind, express or implied. In no event shall the copyright holder be liable for any claim, damages or other liability arising from the software or its use.
 
-6. Mandatory rights. Nothing in this license limits rights that applicable law grants and that cannot be waived by contract, such as the right in the European Union to decompile a program for interoperability or to make a backup copy.
+7. Termination. Any breach of this license ends your rights under it automatically.
 
-7. No warranty. The Software is provided "as is", without warranty of any kind, express or implied. In no event shall the copyright holder be liable for any claim, damages or other liability arising from the Software or its use.
-
-8. Termination. Any breach of this license ends your rights under it automatically.
+8. Third-party components. Components from other authors that are included with the software, such as the .NET runtime and the Windows App SDK, are not covered by this license. They remain under their own licenses, whose texts and notices are included with the software.
