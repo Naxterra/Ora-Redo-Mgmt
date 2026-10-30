@@ -220,3 +220,7 @@ Primary references:
 The historical [interactive script](redo_log_analysis_and_management.sql) is
 retained for reference. It has the safety issues identified in the review;
 use `redoctl.sh` for the new automation workflow.
+
+## License
+
+This software is under the Nax Source-Available License 1.0. You may install and use the official release builds, privately and at work, and you may read the source code. Modifying the software, redistributing it and selling it need the written permission of the owner. See [LICENSE](LICENSE).

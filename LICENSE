@@ -1,21 +1,21 @@
-MIT License
+Nax Source-Available License 1.0
 
-Copyright (c) 2026 Naxterra
+Copyright (c) 2026 Naxterra. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license applies to the software in this repository and to the builds published from it (the "Software").
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Permitted use. You may download, install and run the official release builds of the Software for any purpose, including commercial use, on any number of devices you control. Official release builds are those published by the copyright holder on the releases page of this repository or through an update mechanism that the copyright holder provides. You may read and study the source code.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Reserved rights. Except as stated in section 1, you may not copy, modify, adapt, translate, decompile, create derivative works of, redistribute, sublicense, rent, lease, sell or otherwise commercially exploit the Software or its source code, in whole or in part, without the prior written permission of the copyright holder. Linking to the official release page is permitted. Redistributing the files themselves is not.
+
+3. Forks. The right to view and fork this repository on GitHub that the GitHub Terms of Service grant is unaffected. A fork or any other copy gives you no rights beyond those in sections 1 and 2.
+
+4. Contributions. If you send changes to the copyright holder, you grant the copyright holder the right to use them under any terms.
+
+5. Trademarks. The names Nax and Naxterra and the names of the individual applications may not be used to promote derived or competing products.
+
+6. Mandatory rights. Nothing in this license limits rights that applicable law grants and that cannot be waived by contract, such as the right in the European Union to decompile a program for interoperability or to make a backup copy.
+
+7. No warranty. The Software is provided "as is", without warranty of any kind, express or implied. In no event shall the copyright holder be liable for any claim, damages or other liability arising from the Software or its use.
+
+8. Termination. Any breach of this license ends your rights under it automatically.
